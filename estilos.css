@@ -1,0 +1,320 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+#main-header {
+    height: 95px;
+    color: aliceblue;
+    background: #24282B;
+    border-bottom: 5px solid #1B90D3;
+}
+
+
+#border-header div {
+    width: 100%;
+    height: 20px;
+    border-bottom: 1000px;
+    border-color: #1B90D3;
+}
+
+#logo-header {
+    float: left;
+    padding: 15px 0 0 20px;
+    text-decoration: none;
+    margin-top: 18px;
+    margin-left: 70px;
+    font-size: 30px;
+}
+#logo-header .site-name {
+    color: #e6e9eb;
+}
+#logo-header .site-name2 {
+    color: #1B90D3;
+}
+
+nav {
+    float: right;
+    padding-top: 10px;
+    position: sticky;
+    top: 0;
+
+}
+
+nav ul {
+    margin: 0px;
+    list-style: none;
+    padding-right: 20px;
+    padding: 0px;
+    margin-right: 90px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+}
+
+nav ul li a {
+    display: block;
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+.indColor{
+    color:aliceblue;
+}
+
+.indColor:hover{
+    color:#1B90D3;
+}
+
+#idcolors:visited{
+    color:#1B90D3;
+}
+
+
+.cabecera {
+    background-image: url("images/cabecera.jpg");
+    width: 100%;
+    height: 400px;
+    color: white;
+}
+
+.text_cab{
+    text-align: center;
+    padding-top:130px ;
+}
+
+.tecnologia {
+    font-size: 50px;
+    text-align: center;
+    width: 100%;
+    height: 40%;   
+    margin: auto;
+}
+
+#tec_span{
+    width: 55%;
+    margin-top: 15px;
+    text-align: center;
+    margin: 10px auto;
+}
+
+
+#social {
+    width: 100%;
+    height: 90px;
+    background: #24282B;
+}
+
+.sub {
+    margin: 20px;
+    float: left;
+    font-size: 20px;
+    color: white;
+    padding-left: 90px;
+    padding-top: 10px;
+
+}
+
+.email {
+    float: right;
+    padding-right: 1000px;
+    padding: 6px;
+    margin: 0;
+}
+
+.boton {
+    float: right;
+    padding-right: 100px;
+    padding: 10px;
+    background-color: #ED471B;
+    margin-left: 4px;
+    color: white;
+    font-size: 10px;
+    border: #ED471B;
+}
+
+.botones {
+    padding-top: 30px;
+    padding-right: 160px;
+}
+
+.logos {
+    height: 250px;
+    width: 1100px;
+    text-align: center;
+    padding: 40px;
+}
+
+.main_logo {
+    float: left;
+    width: 26%;
+    margin: 25px;
+    padding-left: 30px;
+}
+
+.img_logo {
+    width: 100px;
+    height: 100px;
+}
+
+footer {
+    width: 100%;
+    height: 90px;
+    background-color: #1C94D4;
+    font-size: 15px;
+
+}
+
+.pie_pagina {
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+}
+
+/*Nosotros*/
+
+.social_nosotros {
+    padding-top: 30px;
+    height: 440px;
+}
+
+.nos_section1 {
+    width: 55%;
+    float: left;
+    height: 470px;
+    text-align: start;
+    padding-left: 78px;
+    padding-top: 0px;
+    padding-right: 40px;
+    text-align: justify;
+    font-size: 14px;
+
+}
+
+.nos_section2 {
+    float: right;
+    width: 300px;
+    height: 160px;
+    background-color: #35424a;
+    padding-left: 10px;
+    color: white;
+    font-size: 14px;
+    text-align: justify;
+    padding: 20px;
+    margin-right: 50px;
+
+}
+
+.div_borde {
+    background-color: #35424a;
+    padding: 14px;
+    color: white;
+}
+
+#img_nos {
+    width: 675px;
+    padding-top: 12px;
+}
+
+/*Servicios*/
+
+.social_servicios {
+    width: 100%;
+    padding-top: 30px;
+    height: 570px;
+    margin: 0;
+}
+
+.ser_section1 {
+    float: left;
+    width: 680px;
+    height: 470px;
+    text-align: start;
+    padding-left: 78px;
+    padding-right: 40px;
+    text-align: justify;
+    font-size: 14px;
+    padding-bottom: 5px;
+
+}
+
+.ser_section2 {
+    float: right;
+    width: 300px;
+    height: 160px;
+    background-color: #35424a;
+    padding-left: 10px;
+    color: white;
+    font-size: 14px;
+    text-align: justify;
+    padding: 20px;
+    margin-right: 50px;
+
+}
+
+.div_ser {
+    background-color: rgb(236, 236, 236);
+    padding: 20px 50px 10px 20px;
+    margin: 3px;
+    border: 2px solid #e6e9eb;
+   
+}
+
+/*contacto*/
+
+.social_contacto{
+    height: 530px;
+    padding-top: 30px;
+}
+
+.cont_div{
+    padding-left: 95px;
+    float: left;
+    
+}
+
+.pedir_usuario{
+    width: 710px;
+    margin-right: 20px;
+    background-color: white;
+    border: 1px solid #c2c5c7 ;
+    height: 30px;
+
+}
+
+.boton_contacto{
+    background-color: #ED471B;
+    border: 1px solid #c2c5c7 ;
+    width: 700px;
+    color: white;
+    height: 30px;
+}
+
+.cont_section2{
+    float: right;
+    width: 300px;
+    height: 160px;
+    background-color: #35424a;
+    padding-left: 20px;
+    color: white;
+    font-size: 14px;
+    text-align: justify;
+    padding: 20px;
+    margin-right: 50px;
+}
+.cont_mensaje{
+    background-color: white;
+    border: 1px solid #c2c5c7;
+    width: 710px;
+    height: 110px;
+}
+
+.mapa{
+    width: 340px;
+    margin-top: 40px;
+    margin-left: -20px;
+}
+
